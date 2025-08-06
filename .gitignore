@@ -1,2 +1,37 @@
-# Firebase config
+# ----- Xcode build & user files -----
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# ----- Xcode workspace -----
+# If you open an .xcworkspace (e.g. for SPM),
+# ignore all of them except the one you checked in.
+*.xcworkspace
+!YourProjectName.xcworkspace
+
+# ----- Swift Package Manager (SPM) -----
+.build/
+.swiftpm/
+
+# (Optional) If you vendor in packages, ignore this:
+# Packages/
+
+# ----- Carthage -----
+Carthage/Build/
+Carthage/Checkouts/
+
+# ----- Archives & Packages -----
+*.xcarchive
+*.ipa
+
+# ----- Fastlane (if used later) -----
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# ----- macOS Finder -----
+.DS_Store
+
+# ----- Secrets -----
 GoogleService-Info.plist
